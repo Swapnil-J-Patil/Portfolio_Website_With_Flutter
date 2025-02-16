@@ -108,7 +108,7 @@ class FlutterCodedText extends StatelessWidget {
         text: "<",
         children: [
           TextSpan(
-            text: "flutter",
+            text: "app",
             style: TextStyle(color: primaryColor),
           ),
           TextSpan(text: ">"),

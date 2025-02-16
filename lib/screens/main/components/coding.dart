@@ -16,7 +16,7 @@ class Coding extends StatelessWidget {
         Padding(
           padding: const EdgeInsets.symmetric(vertical: defaultPadding),
           child: Text(
-            "Coding",
+            "Technical Skills",
             style: Theme.of(context).textTheme.titleMedium,
           ),
         ),
@@ -33,6 +33,10 @@ class Coding extends StatelessWidget {
           label: "Java",
         ),
         AnimatedLinearProgressIndicator(
+          percentage: 0.6,
+          label: "Firebase",
+        ),
+        AnimatedLinearProgressIndicator(
           percentage: 0.75,
           label: "Retrofit",
         ),
@@ -40,10 +44,8 @@ class Coding extends StatelessWidget {
           percentage: 0.70,
           label: "Room Database",
         ),
-        AnimatedLinearProgressIndicator(
-          percentage: 0.85,
-          label: "Firebase",
-        ),
+
+
       ],
     );
   }

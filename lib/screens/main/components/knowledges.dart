@@ -18,13 +18,12 @@ class Knowledges extends StatelessWidget {
           padding: const EdgeInsets.symmetric(
               vertical: defaultPadding),
           child: Text(
-            "Additional Skills",
+            "Architecture & Tools",
             style: Theme.of(context).textTheme.titleMedium,
           ),
         ),
         KnowledgeText(text: "MVVM, Clean Architecture."),
-        KnowledgeText(text: "ProGuard, R8."),
-        KnowledgeText(text: "Smart TV Apps."),
+        KnowledgeText(text: "ProGuard & R8"),
         KnowledgeText(text: "GitLab, GitHub."),
       ],
     );

@@ -23,8 +23,11 @@ class Knowledges extends StatelessWidget {
           ),
         ),
         KnowledgeText(text: "MVVM, Clean Architecture."),
+        KnowledgeText(text: "Dagger-Hilt."),
         KnowledgeText(text: "ProGuard & R8"),
         KnowledgeText(text: "GitLab, GitHub."),
+        KnowledgeText(text: "AR Core."),
+
       ],
     );
   }

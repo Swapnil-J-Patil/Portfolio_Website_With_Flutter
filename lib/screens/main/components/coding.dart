@@ -25,7 +25,7 @@ class Coding extends StatelessWidget {
           label: "kotlin",
         ),
         AnimatedLinearProgressIndicator(
-          percentage: 0.7,
+          percentage: 0.5,
           label: "Dart",
         ),
         AnimatedLinearProgressIndicator(
@@ -44,8 +44,6 @@ class Coding extends StatelessWidget {
           percentage: 0.70,
           label: "Room Database",
         ),
-
-
       ],
     );
   }
